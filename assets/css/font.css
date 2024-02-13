@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Cond.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Cond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad-Pro-bold';
+    src: url('../fonts/MyriadPro-BoldCond.woff2') format('woff2'),
+        url('../fonts/MyriadPro-BoldCond.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Enticing Script';
+    src: url('../fonts/EnticingScript.woff2') format('woff2'),
+        url('../fonts/EnticingScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Medium.woff2') format('woff2'),
+        url('../fonts/Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frontage Condensed';
+    src: url('../fonts/FrontageCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/FrontageCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frontage Condensed';
+    src: url('../fonts/FrontageCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/FrontageCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

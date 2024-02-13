@@ -1,0 +1,175 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Site title 6</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/font.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+    <main style="background-image: url(./assets/img/body.png);">
+        <img src="assets/img/dh-2.png" class="dh-2" alt="">
+        <img src="assets/img/corner-bottom-left.png" class="corner-left" alt="">
+        <img src="assets/img/corner-top-rightpng.png" class="corner-right" alt="">
+
+        <!--------- Section START ---------->
+        <header class="header-area">
+            <div class="header__wrp">
+                <img src="assets/img/dh-img.png" class="dh-img" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="header__logo">
+                                
+                                    <img src="assets/img/logo-100.png" class="logo-100" alt="">
+                                    <img src="assets/img/bon-logo.png" class="bon-logo" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/img/star-left.png" class="star-left" alt="">
+                    <img src="assets/img/star-right.png" class="star-right" alt="">
+                </div>
+            </div>
+        </header>
+        <!--------- Section End ---------->
+
+
+        <!--------- Section START ---------->
+        <section class="body__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="offer__content">
+                            <div class="offer__blk offer-4">
+                                <a href="#">
+                                    <img src="assets/img/OFFRE-6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="offer_btn v6">
+                                <!-- <a href="#" class="mt-0">
+                                    <img src="assets/img/offer-btn.png" alt="">
+                                </a> -->
+                                <div class="files-wr" data-count-files="1">
+                                    <div class="one-file">
+                                      <label for="file-1"><img src="assets/img/offer-btn.png" alt=""></label>
+                                      <input name="file-1" id="file-1" type="file">
+                                      <div class="file-item hide-btn">
+                                        <span class="file-name"></span>
+                                        <span class="btn btn-del-file">+</span>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lefft-img">
+                    <img src="assets/img/thumb-left.png" class="thumb-left" alt="">
+                    <img src="assets/img/thumb-right.png" class="thumb-right" alt="">
+                </div>
+            </div>
+
+        </section>
+        <!--------- Section End ---------->
+
+
+
+    </main>
+
+        <!---------footer Section START ---------->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer__content">
+                            <ul>
+                                <li><a href="index.html"><img src="assets/img/logo.png" alt=""></a></li>
+                                <li><a href="#">règlement de jeu</a></li>
+                                <li><a href="#">mentions légales</a></li>
+                                <li><a href="#">politique de protection des données personnelles</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!---------footer Section End ---------->
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script >
+            $(function() {
+    var countFiles = 1,
+      $body = $('body'),
+      typeFileArea = ['txt', 'doc', 'docx', 'ods'],
+      coutnTypeFiles = typeFileArea.length;
+  
+    //create new element
+    $body.on('click', '.files-wr label', function() {
+      var wrapFiles = $('.files-wr'),
+        newFileInput;
+  
+      countFiles = wrapFiles.data('count-files') + 1;
+      wrapFiles.data('count-files', countFiles);
+  
+      newFileInput = '<div class="one-file"><label for="file-' + countFiles + '"><img src="assets/img/offer-btn.png" alt=""></label>' +
+        '<input type="file" name="file-' + countFiles + '" id="file-' + countFiles + '"><div class="file-item hide-btn">' +
+        '<span class="file-name"></span><span class="btn btn-del-file">+</span></div></div>';
+      wrapFiles.prepend(newFileInput);
+    });
+  
+    //show text file and check type file
+    $body.on('change', 'input[type="file"]', function() {
+      var $this = $(this),
+        valText = $this.val(),
+        fileName = valText.split(/(\\|\/)/g).pop(),
+        fileItem = $this.siblings('.file-item'),
+        beginSlice = fileName.lastIndexOf('.') + 1,
+        typeFile = fileName.slice(beginSlice);
+  
+      fileItem.find('.file-name').text(fileName);
+      if (valText != '') {
+        fileItem.removeClass('hide-btn');
+  
+        for (var i = 0; i < coutnTypeFiles; i++) {
+  
+          if (typeFile == typeFileArea[i]) {
+            $this.parent().addClass('has-mach');
+          }
+        }
+      } else {
+        fileItem.addClass('hide-btn');
+      }
+  
+      if (!$this.parent().hasClass('has-mach')) {
+        $this.parent().addClass('error');
+      }
+    });
+  
+    //remove file
+    $body.on('click', '.btn-del-file', function() {
+      var elem = $(this).closest('.one-file');
+      elem.fadeOut(400);
+      setTimeout(function() {
+        elem.remove();
+      }, 400);
+    });
+  });
+
+
+        </script>
+    </body>
+</html>
+

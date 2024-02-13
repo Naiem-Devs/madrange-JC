@@ -1,0 +1,809 @@
+/* Big screen :1200px. */
+@media (min-width: 1500px) and (max-width: 1800px) {
+    .star-left {
+        left: -278px;
+        scale: .8;
+        top: -29px;
+    }
+    
+    .star-right {
+        right: -194px;
+    }
+    
+    .header__wrp .container {
+        max-width: 955px;
+    }
+    
+    .container {
+        max-width: 1031px;
+    }
+    
+    .offer__blk a {
+        max-width: 746px;
+    }
+
+.offer__blk.offer-4 a {
+    max-width: 700px;
+}
+
+.offer_5blk a {
+    bottom: 30%;
+}
+    
+    .thumb-left {
+        scale: .7;
+        left: -341px;
+        top: -82px;
+    }
+    
+    .thumb-right {scale: .75;right: -291px;top: -74px;}
+    
+    .bon-logo {
+        max-width: 390px;
+        bottom: -16px;
+    }
+    
+    img.dh-img {
+        top: 25px;
+        left: 46%;
+        scale: .8;
+    }
+
+img.dh-2 {
+    right: 24%;
+}
+    
+    .logo-100 {
+        max-width: 490px;
+    }
+    
+    .offer__wrp {
+        max-width: 734px;
+        margin-left: 93px;
+    }
+    
+    .offer__blk i {
+        top: 88%;
+        scale: .9;
+    }
+    
+    .offer__blk {
+        margin-top: -33px;
+    }
+
+.offer_5blk {
+    max-width: 710px;
+}
+
+.offer_btn.v6 {
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+.offer_btn.v5 img {
+    max-width: 400px;
+}
+    .service-wrp,.svcForm__img {
+        height: 510px;
+    }
+
+.svcForm__img {
+    max-width: 52%;
+}
+
+.service-wrp h3 {
+    font-size: 33px;
+}
+
+.service-wrp h3,.service-wrp h3 {
+    font-size: 33px;
+}
+
+}
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .star-left {
+        left: -188px;
+        max-width: 159px;
+        top: 0;
+    }
+    .corner-left {
+        max-width: 400px;
+    }
+    
+    .corner-right {
+        max-width: 160px;
+    }
+    .star-right {
+        right: -150px;
+        max-width: 166px;
+    }
+    
+    .header__wrp .container {
+        max-width: 776px;
+        padding-top: 15px;
+    }
+    
+    .container {
+        max-width: 798px;
+    }
+
+.footer-area .container {
+    max-width: 100%;
+}
+    
+    .offer__blk a {
+        max-width: 606px;
+    }
+    
+    .thumb-left {
+        left: -218px;
+        top: 9px;
+        max-width: 297px;
+    }
+    
+    .thumb-right {right: -174px;top: 1px;max-width: 268px;}
+    
+    .bon-logo {
+        max-width: 277px;
+        bottom: -16px;
+    }
+    
+    img.dh-img {
+        top: 25px;
+        left: 46%;
+        scale: .8;
+    }
+
+img.dh-2 {
+    scale: .6;
+    right: 24%;
+}
+    
+    .logo-100 {
+        max-width: 358px;
+    }
+    
+    .offer__wrp {
+        max-width: 601px;
+        margin-left: 53px;
+    }
+    
+    .offer__blk i {
+        top: 85%;
+        scale: .7;
+        left: 44%;
+    }
+    
+    .offer__blk {
+        margin-top: -1px;
+    }
+
+.offer_5blk {
+    max-width: 640px;
+}
+
+.offer_btn.v6 {
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.offer_btn.v5 a {margin-top: 0;}
+
+.offer__blk.offer-4 a {
+    max-width: 620px;
+}
+
+.offer_5blk a {
+    bottom: 30%;
+    font-size: 18px;
+    max-width: 272px !important;
+}
+
+.offer_btn.v5 img {
+    max-width: 350px;
+}
+
+.offer_btn.v5 {
+    margin-top: -51px;
+}
+    .service-wrp,.svcForm__img {
+        height: 490px;
+        max-width: 601px;
+        bottom: 40px;
+    }
+
+.service__content {
+    padding: 40px 55px 35px;
+}
+
+.svcForm__photo {
+    margin-bottom: -87px;
+}
+
+.svcForm__img {
+    padding: 0;
+}
+    
+    .service-wrp > h3,.service-wrp h3 {
+        font-size: 25px;
+        margin-left: 53px;
+    }
+
+img.form-img-1 {max-width: 60px;}
+
+img.form-img {max-width: 124px;}
+    
+    .form__content label {
+        gap: 5px;
+    }
+    
+    .radio__blk {
+        max-width: 400px;
+    }
+    
+    .input__wrp {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .corner-left {
+        max-width: 333px;
+    }
+
+img.dh-2 {
+    scale: .6;
+    right: 23%;
+}
+    
+    .corner-right {
+        max-width: 115px;
+    }
+    .star-left {
+        left: -188px;
+        max-width: 159px;
+        top: 0;
+    }
+    
+    .star-right {
+        right: -150px;
+        max-width: 166px;
+    }
+    
+    .header__wrp .container {
+        max-width: 634px;
+        padding-top: 15px;
+    }
+    
+    .container {
+        max-width: 680px;
+    }
+
+.footer-area .container {
+    max-width: 100%;
+}
+    
+    .offer__blk a {
+        max-width: 505px;
+    }
+
+.offer__blk.offer-4 a {
+    max-width: 520px;
+}
+
+.offer_5blk a {
+    font-size: 16px;
+    max-width: 242px !important;
+    bottom: 30%;
+}
+
+.offer_btn.v5 img {
+    max-width: 319px;
+}
+
+.offer_btn.v5 {
+    margin-top: -45px;
+}
+
+.offer_btn a {
+    max-width: 351px;
+}
+
+.offer_btn.v5 a {
+    margin-top: 0;
+}
+    
+    .thumb-left {
+        left: -166px;
+        top: 9px;
+        max-width: 239px;
+    }
+    
+    .thumb-right {right: -152px;top: 1px;max-width: 220px;}
+    
+    .bon-logo {
+        max-width: 241px;
+        bottom: -16px;
+    }
+    
+    img.dh-img {
+        top: 25px;
+        left: 46%;
+        scale: .8;
+    }
+    
+    .logo-100 {
+        max-width: 299px;
+    }
+    
+    .offer__wrp {
+        max-width: 531px;
+        margin-left: 53px;
+    }
+    
+    .offer__blk i {
+        top: 85%;
+        scale: .7;
+        left: 44%;
+    }
+    
+    .offer__blk {
+        margin-top: -1px;
+    }
+
+.offer_5blk {
+    max-width: 500px;
+}
+
+.offer_btn.v6 {
+    max-width: 363px;
+    margin-inline: auto;
+}
+    .footer__content ul {
+        gap: 20px;
+    }
+    .footer__content ul li a{
+        font-size: 12px;
+    }
+    .service-wrp,.svcForm__img {
+        height: 465px;
+        max-width: 601px;
+    }
+
+.service__content {
+    padding: 25px 40px 31px;
+}
+
+.svcForm__photo {/* margin-top: -30px; */margin-bottom: -75px;}
+
+img.form-img-1 {
+    max-width: 50px;
+    left: 0;
+}
+
+img.form-img {
+    max-width: 108px;
+}
+
+.svcForm__img {
+    padding: 0;
+    max-width: 50%;
+}
+    
+    .service-wrp > h3,.service-wrp h3 {
+        font-size: 23px;
+    }
+    
+    .form__content label {
+        gap: 5px;
+    }
+    
+    .radio__blk {
+        max-width: 400px;
+    }
+    
+    .input__wrp {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .corner-left {
+        max-width: 333px;
+    }
+
+img.dh-2 {
+    right: 13%;
+    scale: .7;
+}
+    
+    .corner-right {
+        max-width: 115px;
+    }
+    .star-left {
+        left: -81px;
+        max-width: 105px;
+        top: 0;
+    }
+    
+    .star-right {
+        right: -58px;
+        max-width: 125px;
+    }
+    
+    .header__wrp .container {
+        max-width: 579px;
+        padding-top: 15px;
+    }
+    
+    .container {
+        max-width: 681px;
+    }
+
+.footer-area .container {
+    max-width: 100%;
+}
+    
+    .offer__blk a {
+        max-width: 505px;
+    }
+
+.offer_5blk a {
+    font-size: 15px;
+    max-width: 225px !important;
+    border-radius: 11px;
+    bottom: 30%;
+}
+    
+    .thumb-left {
+        left: -182px;
+        top: 9px;
+        max-width: 282px;
+        position: unset;
+    }
+    
+    .thumb-right {right: -152px;top: 1px;max-width: 220px;position: unset;}
+    
+    .bon-logo {
+        max-width: 204px;
+        bottom: -16px;
+    }
+    
+    img.dh-img {
+        top: 25px;
+        left: 46%;
+        scale: .8;
+    }
+    
+    .logo-100 {
+        max-width: 270px;
+    }
+    
+    .offer__wrp {
+        max-width: 531px;
+        margin-left: 53px;
+    }
+    
+    .offer__blk i {
+        top: 85%;
+        scale: .7;
+        left: 44%;
+    }
+    
+    .offer__blk {
+        margin-top: -1px;
+    }
+
+.offer_5blk {
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.offer_btn.v6 {
+    max-width: 395px;
+    margin-inline: auto;
+}
+
+.offer_btn {
+    margin-bottom: 0;
+}
+
+.offer_btn.v5 {
+    margin-top: -59px;
+}
+
+.offer_btn.v5 img {
+    max-width: 370px;
+}
+
+.offer_btn.v5 a {
+    margin-top: -15px;
+    max-width: 350px;
+}
+    .footer__content ul {
+        gap: 20px;
+    }
+    .footer__content ul li a{
+        font-size: 12px;
+    }
+    .lefft-img {
+        text-align: center;
+        margin: 30px 0 50px;
+    }
+    .service-wrp,.svcForm__img {
+        height: auto;
+        max-width: 601px;
+        padding: 20px 40px 35px;
+        position: unset;
+        margin: auto;
+        transform: unset;
+    }
+
+.svcForm__photo {
+    margin-bottom: -85px;
+}
+
+.svcForm__img {
+    margin-bottom: -27px;
+}
+
+img.form-img {
+    max-width: 116px;
+    top: -14px;
+    right: 37px;
+}
+
+img.form-img-1 {
+    max-width: 64px;
+    top: 0;
+    left: 35px;
+}
+    
+    .service-wrp > h3,.service-wrp h3 {
+        font-size: 23px;
+        margin-left: 10px;
+    }
+    
+    .form__content label {
+        gap: 5px;
+    }
+    
+    .radio__blk {
+        max-width: 400px;
+    }
+    
+    .input__wrp {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .formpage .lefft-img{
+        display: none;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .corner-left {
+        max-width: 255px;
+    }
+
+img.dh-2 {
+    scale: .6;
+    right: 17%;
+    bottom: 98px;
+}
+    
+    .corner-right {
+        max-width: 68px;
+    }
+    .star-left {
+        left: -81px;
+        max-width: 105px;
+        top: 0;
+        display: none;
+    }
+    
+    .star-right {
+        right: -24px;
+        max-width: 85px;
+        display: none;
+    }
+    
+    .header__wrp .container {
+        max-width: 579px;
+        padding-top: 15px;
+    }
+    
+    .container {
+        max-width: 681px;
+    }
+    
+    .offer__blk a {
+        max-width: 300px;
+        position: relative;
+        z-index: 9;
+    }
+    
+    .thumb-left {
+        max-width: 168px;
+        position: unset;
+    }
+    
+    .thumb-right {max-width: 140px;position: unset;}
+    
+    .bon-logo {
+        max-width: 136px;
+    }
+    
+    img.dh-img {
+        top: 25px;
+        left: 46%;
+        scale: .8;
+    }
+
+.form__body {
+    padding-bottom: 60px;
+}
+    
+    .logo-100 {
+        max-width: 170px;
+        margin: auto;
+    }
+
+.header__logo {
+    text-align: center;
+}
+
+    
+    .offer__wrp {
+        max-width: 330px;
+        margin-left: 0px;
+        margin-top: 35px;
+        margin-inline: auto;
+    }
+    
+    .offer__blk i {
+        top: 85%;
+        left: 49%;
+        max-width: 60px;
+    }
+    
+    .offer__blk {
+        margin-top: -1px;
+    }
+
+.offer_btn.v6 {
+    max-width: 70%;
+    margin-inline: auto;
+    margin-top: -15px;
+}
+
+.offer_btn {
+    margin-bottom: 0;
+}
+
+.offer_btn.v5 {
+    margin-top: -42px;
+}
+
+.offer_btn.v5 img {
+    max-width: 60%;
+}
+
+.offer_btn.v5 a {
+    margin-top: 0px;
+    max-width: 68%;
+}
+    .footer__content ul {
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* max-width: 350px; */
+        /* margin: auto; */
+    }
+
+.footer__content ul li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+    .footer__content ul li a{
+        font-size: 10px;
+    }
+    .lefft-img {
+        text-align: center;
+        margin: 30px 0 80px;
+    }
+
+    .service-wrp {
+        height: 480px;
+        max-width: 601px;
+        padding: 20px 40px 35px;
+    }
+    
+    .service-wrp > h3,.service-wrp h3 {
+        font-size: 22px;
+        letter-spacing: -3px;
+        max-width: 217px;
+        margin-inline: auto;
+    }
+    
+    .form__content label {
+        gap: 5px;
+        font-size: 14px;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+.check__blk label {
+    font-size: 12px;
+}
+
+.check__blk {
+    align-items: normal;
+}
+    
+    .radio__blk {
+        max-width: 400px;
+        gap: 10px;
+    }
+
+.radio__blk label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+    
+    .input__wrp {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+.form-btn {
+    flex-direction: column;
+}
+    .service-wrp,.svcForm__img {
+        height: auto;
+        max-width: 601px;
+        position: unset;
+        margin: auto;
+        transform: unset;
+        padding: 0;
+    }
+
+.svcForm__photo {
+    margin-bottom: -60px;
+}
+
+.service__content {
+    width: 100%;
+    padding: 28px 30px 35px;
+}
+
+img.form-img-1 {
+    max-width: 51px;
+    top: 25px;
+}
+
+img.form-img {
+    max-width: 83px;
+    top: 25px;
+    scale: 1;
+    right: 16px;
+}
+
+img.form-img-2 {}
+}
+ 
